@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lbltitulo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/amber"
+        android:gravity="center"
+        android:text="MI PRIMERA ACTIVIDAD"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblusuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USUARIO:"
+        android:textSize="15dp"
+        />
+
+    <EditText
+        android:id="@+id/txtusuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+    <TextView
+        android:id="@+id/lblclave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CLAVE::"
+        android:textSize="15dp"
+        />
+
+    <EditText
+        android:id="@+id/txtclave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/gris"
+        android:drawableLeft="@drawable/bloquear"
+        android:drawableTint="#FA0000"
+        android:text="OK"
+        android:textColor="@color/black" />
+
+    <ToggleButton
+        android:id="@+id/tglOnOff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton" />
+
+    <TextView
+        android:id="@+id/lblresultado"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="RESULTADO"
+        android:background="@color/indigo"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/lblVer"
+        android:layout_width="match_parent"
+        android:layout_height="381dp"
+        android:gravity="center"
+        android:textSize="14sp" />
+
+</LinearLayout>
