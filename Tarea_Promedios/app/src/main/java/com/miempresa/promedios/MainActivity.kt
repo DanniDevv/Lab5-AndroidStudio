@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 class MainActivity : AppCompatActivity() {
 
     fun PromFin(num1:Double,num2:Double,num3:Double,num4:Double,num5: Double):Double{
-        return (num1)+((num2+num3+num4+num5)*0.3)
+        return (num1 * 0.7)+((num2+num3+num4+num5)*0.3)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
